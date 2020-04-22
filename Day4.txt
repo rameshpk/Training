@@ -1,0 +1,222 @@
+--------------------Guided Table------------------------------
+{
+  	"lookup": null,
+  	"commands": [
+
+  		{
+  			"insert": {
+  				"object": {
+  					"com.demo.guidedtable.Vehicle": 
+					{										
+  						"type": "Car",
+						"yearOfManufacture": 2005										
+						
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		},  		
+
+  		{
+  			"fire-all-rules": {}
+  		}
+
+  	]
+  }
+ ------------------------DeclareType------------------------------------------------
+  
+  
+  {
+  	"lookup": null,
+  	"commands": [
+
+  		{
+  			"insert": {
+  				"object": {
+  					"com.demo.Person": 
+					{													
+						
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		},  
+
+		{
+  			"insert": {
+  				"object": {
+  					"com.demo.Student": 
+					{													
+						"name" : "Ramesh",
+						"mark" : 100
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		},
+
+  		{
+  			"fire-all-rules": {}
+  		}
+
+  	]
+  }
+ -----------------------------Function---------------Function_1.0.0-SNAPSHOT------------------------------
+{
+  	"lookup": null,
+  	"commands": [
+
+  		{
+  			"insert": {
+  				"object": {
+  					"com.demo.Person": 
+					{													
+						"name": "sachin",
+						"age" : 50
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		}, 		
+
+  		{
+  			"fire-all-rules": {}
+  		}
+
+  	]
+  }
+  
+  -----------------------------------Query-------------------------
+  
+ {
+  	"lookup": null,
+  	"commands": [
+
+  		{
+  			"insert": {
+  				"object": {
+  					"com.demo.Person": 
+					{													
+					
+						"age" : 50
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		}, 
+
+{
+  			"insert": {
+  				"object": {
+  					"com.demo.Person": 
+					{													
+						
+						"age" : 54
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		}, 		
+
+
+{
+  			"insert": {
+  				"object": {
+  					"com.demo.Person": 
+					{													
+					
+						"age" : 60
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		}, 		
+
+
+{
+  			"insert": {
+  				"object": {
+  					"com.demo.Person": 
+					{													
+						
+						"age" : 20
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		},
+
+	{
+      "query": {
+        "name": "person over 25",
+        "arguments": [],
+        "out-identifier": "persons"
+      }
+    },		
+		
+
+  		{
+  			"fire-all-rules": {}
+  		}
+
+  	]
+  }
+  ------------------------Sheet----------------------
+  
+  
+{
+  	"lookup": null,
+  	"commands": [
+
+  		{
+  			"insert": {
+  				"object": {
+  					"com.myteam.decisiontablesample.Person": 
+					{												
+						"age" : 50
+  					}
+  				},
+  				"out-identifier": "test",
+  				"return-object": true
+  			}
+  			
+  		}, 
+			
+		{
+  			"insert": {
+  				"object": {
+  					"com.myteam.decisiontablesample.Product": 
+					{													
+						"productPrice": 4000,
+						"userType" : "regular"
+  					}
+  				},
+  				"out-identifier": "test1",
+  				"return-object": true
+  			}
+  			
+  		}, 	
+
+  		{
+  			"fire-all-rules": {}
+  		}
+
+  	]
+  }
+  

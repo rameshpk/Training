@@ -7,7 +7,7 @@
 7.	Click on the “Build and Deploy” button to build the KJAR (the Decision Deployment Unit which contains the model and rules) and to deploy it on the execution server.
 8.	Once the build and deployment has finished open “Menu -> Deploy -> Execution Servers”. The page will show a running “default-kie-server” with the “decisiontablesample _1.0.0-SNAPSHOT” container.
 
-<h2>Test Your BRMS Service<h2>
+Test Your BRMS Service
 
 The Decision Server comes with a Swagger UI that allows us to test the RESTful endpoints of the server and the rules deployed on it. We will use this UI to test our rules.
 

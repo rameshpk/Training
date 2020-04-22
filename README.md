@@ -13,7 +13,7 @@ The Decision Server comes with a Swagger UI that allows us to test the RESTful e
 
 Go to the URL http://localhost:8080/kie-server/docs. This will open the Swagger UI.
 Send a request to the Decsion Service by navigating to “Rules evaluation :: BRM” : “POST” : “/server/containers/instances/{id}.
-Set “Parameter content type” to “application/json”,  set “id” to “xxxxxx_1.0.0-SNAPSHOT” (this is the id of the Rules container), set “body” to:.(JSON Paylaod)
+Set “Parameter content type” to “application/json”,  set “id” to “xxxxxx_1.0.0-SNAPSHOT” (this is the id of the Rules container), set “body” to:.(JSON Paylaod from https://github.com/rameshpk/Training/blob/master/Day4.txt)
 
 Set “Response content type” to “application/json”
 Click on execute.

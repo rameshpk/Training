@@ -1,0 +1,11 @@
+package com.demo.guidedtable;
+
+import java.lang.Number;
+
+rule "BikeRule"
+	dialect "mvel"
+	when
+		$vec : Vehicle( type == "Bike" , yearOfManufacture <= 2005 )
+	then
+		$vec.setValue( 1000.0 );
+end

@@ -1,0 +1,11 @@
+package com.demo.guidedtable;
+
+import java.lang.Number;
+
+rule "Car-Insurance-Evaluation1"
+	dialect "mvel"
+	when
+		$vec : Vehicle( type == "Car" , yearOfManufacture >= 2000 )
+	then
+		$vec.setValue( 3000.0 );
+end

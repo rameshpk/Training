@@ -1,0 +1,19 @@
+package com.demo;
+
+function boolean message(String name)
+{
+    if(name.equalsIgnoreCase("sachin"))
+    {
+        return true;
+    }
+  return false;
+}
+
+rule "function-rule"
+
+when
+	$person:Person(age > 45,$name:name)
+	eval(message($name))
+then
+	System.out.println("success");
+end

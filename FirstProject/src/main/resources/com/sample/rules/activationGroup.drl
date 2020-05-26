@@ -1,0 +1,22 @@
+package com.sample.rules
+
+import com.sample.DroolsTest.Message;
+
+//For this activation group only a single rule with higher salience will get fired
+
+/*rule "test-activation-group-1"
+activation-group "activation-group"
+   when
+   		Message( status == Message.HELLO) //matching
+   then
+   		System.out.println("test-activation-group-1");
+end
+
+rule "test-activation-group-2"
+activation-group "activation-group"
+salience 1  //higher 
+	when
+		Message( status == Message.HELLO, text=="Hello") //matching
+	then
+		System.out.println("test-activation-group-2");
+end*/

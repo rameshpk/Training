@@ -1,0 +1,34 @@
+//created on: 25 May, 2020
+package com.sample.rules
+
+import com.sample.DroolsTest.Message;
+
+//This is an optional keyword. It can be assigned for all rules. 
+//If not assigned to any agenda group, the rule by default belongs to ‘main’ agenda
+/*rule "test-agenda-group-1"
+agenda-group "agenda-group-test"
+
+	when
+		Message( status == Message.HELLO)
+	then
+ 		System.out.println("agenda-group-1");
+end
+
+rule "test-agenda-group-2"
+agenda-group "agenda-group-test"
+
+ 	when
+ 		Message( status == Message.HELLO, text=="Hello")
+ 	then
+  		System.out.println("agenda-group-2");
+end
+
+
+rule "test-agenda-group-3"
+agenda-group "agenda-group-3"
+
+ 	when
+ 		Message( status == Message.HELLO)
+ 	then
+  		System.out.println("agenda-group-3");
+ end*/

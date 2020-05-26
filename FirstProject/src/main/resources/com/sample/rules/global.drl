@@ -1,0 +1,26 @@
+//created on: 25 May, 2020
+package com.sample.rules
+
+import com.sample.DroolsTest.Message;
+
+//Global variable is the one which will be visible to all the rules inside a DRL file.
+
+/*global com.sample.model.EmailService emailService
+
+rule "global-test-ruel"
+
+when
+	 Message( status == Message.HELLO || text=="Goodbye")
+then
+    System.out.println("The rule of global-test-rule is fired!");
+    emailService.sendEmail();
+end
+
+rule "rule2"
+
+when 
+
+then 
+	System.out.println("The rule2");
+    emailService.sendEmail();
+end*/ 

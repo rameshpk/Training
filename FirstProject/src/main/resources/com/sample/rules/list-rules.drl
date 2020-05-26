@@ -1,0 +1,17 @@
+//created on: 25 May, 2020
+package com.sample.rules
+
+import java.util.Map
+import java.util.List
+import com.sample.model.Person
+
+rule "list-rules"
+
+	when
+		$list : List()
+      	$p : Person(age == 19) from $list
+	then
+		System.out.println("person.age=" + ((Person)$list.get(0)).getAge());
+		System.out.println("person1.age=" + ((Person)$p).getAge());
+		System.out.println("List Test");
+end

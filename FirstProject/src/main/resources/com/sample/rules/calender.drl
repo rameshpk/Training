@@ -1,0 +1,12 @@
+//created on: 25 May, 2020
+package com.sample.rules
+
+import com.sample.DroolsTest.Message;
+
+/*rule "test-calender-rule"
+calendars "calendar"  
+	when
+		Message( status == Message.HELLO)
+	then
+	    System.out.println("test-calender-rule");
+end*/

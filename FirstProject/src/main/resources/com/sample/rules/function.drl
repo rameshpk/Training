@@ -1,0 +1,21 @@
+//created on: 25 May, 2020
+package com.sample.rules
+
+import com.sample.DroolsTest.Message;
+
+/*rule "function-test-rules"
+	when
+		 Message( status == Message.HELLO )
+	then
+	    System.out.println("The rule of function-test-rules is fired!");
+	    helloFunction();
+	    System.out.println(helloTom(name));
+end
+
+    function void helloFunction(){
+        System.out.println("helloFunction is called.");
+    }
+
+    function String helloTom(String name){
+        return "Hello " + name + "!";
+    }*/

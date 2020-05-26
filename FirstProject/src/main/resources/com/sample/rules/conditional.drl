@@ -1,0 +1,38 @@
+//created on: 25 May, 2020
+package com.sample.rules
+
+import com.sample.model.Person
+import com.sample.model.Car
+
+ //if-else if , else construct DRL free text // RHDM UI based is not possible
+
+/*rule "conditional-test-rule-1"
+no-loop true  
+when
+    $p : Person(age > 18) //if   // My input age = 23
+    if (age == 20) do[updatePerson]
+    else do[updatePerson1]
+then
+    System.out.println("conditional-test-rule-1"); // outcome
+then[updatePerson]
+    System.out.println("updatePerson");
+    modify($p){
+        setAge(17)  // Modify setAge 17  --> //rule agenda rule give inst to engine - Rule conflict - 
+    }
+then[updatePerson1]
+    System.out.println("updatePerson1");
+    modify($p){
+        setAge(21)
+    }
+end
+
+
+// It allows you to create a rule that extends another rule 
+rule "conditional-test-rule-2"
+        extends "conditional-test-rule-1"
+when
+    //$p1 : Person(age > 18);
+    $car : Car(discount < 90);
+then
+    System.out.println("conditional-test-rule-2");
+end*/
